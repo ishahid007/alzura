@@ -22,7 +22,7 @@ This module is designed to fetch product data from multiple sources, including a
 
 ## Class Diagram
 
-The **Class Diagram** illustrates the relationships between the classes used in this module. The diagram includes:
+**Class Diagram** illustrates the relationships between the classes used in this module. The diagram includes:
 - **ProductService**: Manages the product fetching and normalization process.
 - **ProductSourceInterface**: Defines the common contract for all product sources.
 - **DatabaseProductSource**: Fetches products from a database (CSV file).
