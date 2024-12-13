@@ -15,11 +15,11 @@ use App\Sources\Database\DatabaseProductSource;
 use App\Sources\XML\XMLProductSource;
 use App\Services\ProductService;
 
-// Create instances of your fetchers
+// Create instances of sources
 $databaseFetcher = new DatabaseProductSource();
 $xmlFetcher      = new XMLProductSource();
 
-// Instantiate the ProductFetcher class and use the fetchers
+// Instantiate the ProductService class and use the `addSource` method to add sources
 $productService = new ProductService();
 $productService->addSource($databaseFetcher);
 $productService->addSource($xmlFetcher);
