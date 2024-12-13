@@ -11,7 +11,7 @@ interface ProductSourceInterface {
      * Fetch products from the source
      * @return array
      */
-    public function fetchProducts();
+    public function fetchProducts() : array;
 
     /**
      * Normalize products
