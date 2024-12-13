@@ -15,7 +15,7 @@ This module is designed to fetch product data from multiple sources, including a
 
 1. Clone or download this repository.
 2. Run `composer install` to install dependencies.
-3. Pending (CSV and DB reader for now).
+3. Pending (CSV and DB reader for now)
 
 ## Directory Structure
 
