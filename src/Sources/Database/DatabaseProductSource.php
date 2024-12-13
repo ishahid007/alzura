@@ -10,7 +10,7 @@ use App\Contracts\ProductSourceInterface;
  */
 class DatabaseProductSource implements ProductSourceInterface {
 
-    public function fetchProducts()
+    public function fetchProducts(): array
     {
         return [
             [
